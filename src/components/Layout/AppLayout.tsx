@@ -34,13 +34,15 @@ export default function AppLayout({
       <header className="border-b border-border bg-card/50 backdrop-blur-sm sticky top-0 z-50">
         <div className="flex h-16 items-center justify-between px-6">
           <div className="flex items-center gap-4">
-            <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-blue-500 to-orange-500" />
+            <img
+              src="/og.png"
+              alt="Logo"
+              className="h-8 w-8 rounded-lg object-cover"
+            />
             <div>
-              <h1 className="text-xl font-bold text-foreground">VIT Hostel</h1>
-              <p className="text-sm text-muted-foreground">Management System</p>
+              <h1 className="text-xl font-bold text-foreground">Reg-IT</h1>
             </div>
           </div>
-
           <div className="flex items-center gap-4">
             <Button variant="ghost" size="icon">
               <Bell className="h-5 w-5" />
