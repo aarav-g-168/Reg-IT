@@ -16,7 +16,6 @@ function App() {
             element={
               <ProtectedRoute>
                 <AppLayout>
-                  {/* CHANGE THIS LINE: */}
                   <DashboardPage />
                 </AppLayout>
               </ProtectedRoute>
